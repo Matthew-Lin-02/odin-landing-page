@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: stretch;
+}
+ 
+
+
+
+
+header, main,footer{
+    background-color: #1F2937;
+
+}
+
+main,.random,.quote,.action{
+    flex: 1;
+}
+
+.quote{
+    background-color: #E5E7EB;
+
+}
+
+header,footer{
+    min-height: 50px;
+}
+
